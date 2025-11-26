@@ -19,7 +19,7 @@
       }
     },
     "head-body": {
-      "inherits": "senator",
+      "inherits": "agent",
       "permissions": {
         "recordVotes": true
       }
