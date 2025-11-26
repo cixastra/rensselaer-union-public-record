@@ -104,6 +104,9 @@
       "permissions": []
     }
   },
+  "userRoles": {
+    "cixastra": "registrar"
+  },
   "templateCategories": [
     "Standard Bill",
     "Funding Bill",
