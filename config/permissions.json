@@ -11,7 +11,7 @@
         "manageSystemConfig": false
       }
     },
-    "senator": {
+    "agent": {
       "inherits": "viewer",
       "permissions": {
         "createBills": true,
