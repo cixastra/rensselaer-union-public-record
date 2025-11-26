@@ -1,0 +1,61 @@
+{
+  "systemName": "RPI Union LeMS",
+  "currentSession": "Fall 2024",
+  "branches": [
+    "senate",
+    "executive"
+  ],
+  "bodies": {
+    "senate": [
+      "Student Life",
+      "Academic Affairs",
+      "Facilities & Services",
+      "Financial Affairs",
+      "Rules & Elections"
+    ],
+    "executive": [
+      "Budget Committee",
+      "Appointments"
+    ]
+  },
+  "sessions": [
+    {
+      "name": "Fall 2024",
+      "startDate": "2024-08-26",
+      "endDate": "2024-12-20"
+    },
+    {
+      "name": "Spring 2025",
+      "startDate": "2025-01-13",
+      "endDate": "2025-05-16"
+    },
+    {
+      "name": "Summer 2025",
+      "startDate": "2025-05-19",
+      "endDate": "2025-08-15"
+    }
+  ],
+  "tags": [
+    "budget",
+    "clubs",
+    "housing",
+    "academics",
+    "facilities",
+    "elections",
+    "constitutional",
+    "bylaw",
+    "emergency",
+    "administrative"
+  ],
+  "contactInfo": {
+    "registrar": "registrar@rpi.edu",
+    "senate": "senate@rpi.edu",
+    "union": "union@rpi.edu"
+  },
+  "externalLinks": {
+    "constitution": "https://rpi.app.box.com/v/rpisg",
+    "bylaws": "https://rpi.app.box.com/v/rpisg",
+    "rulesAndProcedures": "https://rpi.app.box.com/v/rpisg",
+    "unionWebsite": "https://union.rpi.edu"
+  }
+}
