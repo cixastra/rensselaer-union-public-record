@@ -2,8 +2,8 @@
   "systemName": "RPI Union LeMS",
   "currentSession": "Fall 2024",
   "branches": [
-    "Student Senate",
-    "Executive Board"
+    "senate",
+    "executive"
   ],
   "bodies": {
     "senate": [
