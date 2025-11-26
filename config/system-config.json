@@ -2,17 +2,17 @@
   "systemName": "RPI Union LeMS",
   "currentSession": "Fall 2024",
   "branches": [
-    "senate",
-    "executive"
+    "Student Senate",
+    "Executive Board"
   ],
   "bodies": {
-    "senate": [
+    "Student Senate": [
       "Student Life Committee ",
       "Academic Affairs Committee",
       "Facilities & Services Committee",
       "Elections Commission"
     ],
-    "executive": [
+    "Executive Board": [
       "Special Group on Club Classifications"
     ]
   },
