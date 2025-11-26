@@ -2,18 +2,44 @@
   "systemName": "RPI Union LeMS",
   "currentSession": "Fall 2024",
   "branches": [
-    "Student Senate",
-    "Executive Board"
+    {
+      "name": "Student Senate",
+      "shortName": "ST"
+    },
+    {
+      "name": "Executive Board",
+      "shortName": "EX"
+    }
   ],
   "bodies": {
     "Student Senate": [
-      "Student Life Committee ",
-      "Academic Affairs Committee",
-      "Facilities & Services Committee",
-      "Elections Commission"
+      {
+        "name": "Student Life Committee ",
+        "nextMotionNumber": 1,
+        "members": []
+      },
+      {
+        "name": "Academic Affairs Committee",
+        "nextMotionNumber": 1,
+        "members": []
+      },
+      {
+        "name": "Facilities & Services Committee",
+        "nextMotionNumber": 1,
+        "members": []
+      },
+      {
+        "name": "Elections Commission",
+        "nextMotionNumber": 1,
+        "members": []
+      }
     ],
     "Executive Board": [
-      "Special Group on Club Classifications"
+      {
+        "name": "Special Group on Club Classifications",
+        "nextMotionNumber": 1,
+        "members": []
+      }
     ]
   },
   "sessions": [
