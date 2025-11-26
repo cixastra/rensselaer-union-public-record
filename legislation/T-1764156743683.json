@@ -1,0 +1,29 @@
+{
+  "type": "bill",
+  "title": "t",
+  "branch": "Student Senate",
+  "body": "Academic Affairs Committee",
+  "content": {
+    "Whereas": [
+      "1"
+    ],
+    "Resolves": [
+      "23"
+    ]
+  },
+  "private": false,
+  "sponsor": "cixastra",
+  "templateName": "Senate Resolution",
+  "id": "T-1764156743683",
+  "billNumber": "DRAFT",
+  "status": "draft",
+  "introducedDate": "2025-11-26",
+  "activity": [
+    {
+      "type": "created",
+      "user": "cixastra",
+      "date": "2025-11-26T11:32:23.683Z",
+      "description": "Draft created"
+    }
+  ]
+}
