@@ -1,0 +1,58 @@
+{
+  "id": "senate-resolution",
+  "name": "Senate Resolution",
+  "description": "Rensselaer Union Student Senate resolution with WHEREAS and RESOLVES clauses.",
+  "latex": "\\documentclass[12pt,letterpaper]{article}\n\\usepackage[margin=1in]{geometry}\n\\usepackage{fancyhdr}\n\\usepackage{titlesec}\n\\usepackage{enumitem}\n\n% Header/Footer\n\\pagestyle{fancy}\n\\fancyhead[L]{\\Branch \\\\ \\Number}\n\\fancyhead[R]{\\Introduced}\n\\fancyfoot[C]{\\thepage}\n\n% Title formatting\n\\titleformat{\\section}{\\normalfont\\Large\\bfseries}{Article \\thesection:}{1em}{}\n\n\\begin{document}\n\n% Metadata commands - Simple direct storage\n\\newcommand{\\Number}{{{number}}} % This is Generated @ Upload \n\\newcommand{\\Title}{{{title}}}\n\\newcommand{\\Sponsor}{{{sponsor}}}\n\\newcommand{\\Cosponsor}{{{cosponsor}}}\n\\newcommand{\\Introduced}{{{introduced}}}\n\\newcommand{\\Branch}{{{branch}}}\n\n% Title Page\n\\begin{center}\n    {\\LARGE\\bfseries Rensselaer Union} \\\\\n    \\vspace{0.5em}\n    {\\Large \\Branch} \\\\\n    \\vspace{1.5em}\n    \n    \\makeatletter\n    {\\large\\Number} \\\\    \\vspace{0.3em}\n    {\\large\\Title} \\\\    \\vspace{1em}\n    Sponsored by: \\Sponsor \\\\  \n    \\if\\relax\\detokenize\\expandafter{\\Cosponsor}\\relax\\else\n    Co-sponsored by: \\Cosponsor \\\\\n    \\fi\n    Introduced: \\Introduced\\end{center}\n\n\\vspace{2em}\n\n\\section*{Whereas Clauses}\n\n\\begin{enumerate}[label=WHEREAS \\\\arabic*.,leftmargin=*]\n    {{whereas_block}}\n\\end{enumerate}\n\n\\section*{Resolves Clauses}\n\n\\begin{enumerate}[label=RESOLVES \\\\arabic*.,leftmargin=*]\n    {{resolves_block}}\n\\end{enumerate}\n\n\\end{document}",
+  "fields": [
+    {
+      "key": "number",
+      "label": "Bill Number",
+      "type": "text",
+      "required": true
+    },
+    {
+      "key": "title",
+      "label": "Title",
+      "type": "text",
+      "required": true
+    },
+    {
+      "key": "sponsor",
+      "label": "Sponsor",
+      "type": "text",
+      "required": true
+    },
+    {
+      "key": "cosponsor",
+      "label": "Co-Sponsor(s)",
+      "type": "text",
+      "required": false
+    },
+    {
+      "key": "introduced",
+      "label": "Introduced Date",
+      "type": "text",
+      "required": true
+    },
+    {
+      "key": "branch",
+      "label": "Branch",
+      "type": "text",
+      "required": true
+    },
+    {
+      "key": "whereas_block",
+      "label": "WHEREAS Clauses (LaTeX)",
+      "type": "textarea",
+      "required": true,
+      "helpText": "Enter one or more clauses as LaTeX, e.g. '\\\\item WHEREAS ...'. Each clause should start with \\\\item."
+    },
+    {
+      "key": "resolves_block",
+      "label": "RESOLVES Clauses (LaTeX)",
+      "type": "textarea",
+      "required": true,
+      "helpText": "Enter one or more clauses as LaTeX, e.g. '\\\\item RESOLVES ...'. Each clause should start with \\\\item."
+    }
+  ]
+}
