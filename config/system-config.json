@@ -4,12 +4,12 @@
   "branches": [
     {
       "name": "Student Senate",
-      "shortName": "ST",
+      "shortName": "SS",
       "nextMotionNumber": 1
     },
     {
       "name": "Executive Board",
-      "shortName": "EX",
+      "shortName": "EB",
       "nextMotionNumber": 1
     }
   ],
