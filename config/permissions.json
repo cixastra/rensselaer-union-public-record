@@ -43,7 +43,9 @@
     }
   },
   "userRoles": {
-    "cixastra": "registrar",
+    "cixastra": {
+      "role": "registrar"
+    },
     "h0hcpsdsd": {
       "role": "agent",
       "agentOf": "Student Senate"
