@@ -1,5 +1,6 @@
 {
   "systemName": "RPI Union LeMS",
+  "usersFile": "users.json",
   "version": "2.0.0",
   "currentSession": "Fall 2024",
   "branches": [
