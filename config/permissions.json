@@ -1,0 +1,48 @@
+{
+  "roles": {
+    "viewer": {
+      "permissions": {
+        "viewBills": true,
+        "createBills": false,
+        "editBills": false,
+        "recordVotes": false,
+        "managePermissions": false,
+        "manageTemplates": false,
+        "manageSystemConfig": false
+      }
+    },
+    "senator": {
+      "inherits": "viewer",
+      "permissions": {
+        "createBills": true,
+        "editBills": true
+      }
+    },
+    "head-body": {
+      "inherits": "senator",
+      "permissions": {
+        "recordVotes": true
+      }
+    },
+    "head-branch": {
+      "inherits": "head-body",
+      "permissions": {}
+    },
+    "elections": {
+      "inherits": "head-branch",
+      "permissions": {
+        "managePermissions": true
+      }
+    },
+    "registrar": {
+      "inherits": "elections",
+      "permissions": {
+        "manageTemplates": true,
+        "manageSystemConfig": true
+      }
+    }
+  },
+  "userRoles": {
+    "cixastra": "registrar"
+  }
+}
