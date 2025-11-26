@@ -1,0 +1,11 @@
+{
+  "name": "New Template",
+  "sections": [
+    {
+      "title": "New Section",
+      "repeatable": false,
+      "content": ""
+    }
+  ],
+  "associatedBodies": []
+}
