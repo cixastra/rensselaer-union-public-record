@@ -1,43 +1,17 @@
 {
-  "users": [
-    {
-      "username": "cixastra",
-      "role": "registrar",
-      "permissions": {
-        "canCreateBills": true,
-        "canEditBills": true,
-        "canRecordVotes": true,
-        "canManagePermissions": true,
-        "canManageTemplates": true,
-        "canManageBranches": true,
-        "canSetImpact": true
-      }
-    },
-    {
-      "username": "senator1",
-      "role": "senator",
-      "permissions": {
-        "canCreateBills": true,
-        "canEditBills": true,
-        "canRecordVotes": false,
-        "canManagePermissions": false,
-        "canManageTemplates": false,
-        "canManageBranches": false,
-        "canSetImpact": false
-      }
-    },
-    {
-      "username": "elections-chair",
-      "role": "elections",
-      "permissions": {
-        "canCreateBills": false,
-        "canEditBills": false,
-        "canRecordVotes": false,
-        "canManagePermissions": true,
-        "canManageTemplates": true,
-        "canManageBranches": true,
-        "canSetImpact": false
-      }
-    }
-  ]
+    "users": [
+        {
+            "username": "cixastra",
+            "role": "registrar",
+            "permissions": {
+                "canCreateBills": true,
+                "canEditBills": true,
+                "canRecordVotes": true,
+                "canManagePermissions": true,
+                "canManageTemplates": true,
+                "canManageBranches": true,
+                "canSetImpact": true
+            }
+        }
+    ]
 }
